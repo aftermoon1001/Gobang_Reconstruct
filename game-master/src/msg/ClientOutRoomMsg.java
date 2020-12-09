@@ -9,10 +9,8 @@ import net.MyServer;
  * 功能: 退出房间报文类
  * @author 黄欢欢  时间: 2016-09-29
  */
-public class ClientOutRoomMsg extends BaseMsg {
+public class ClientOutRoomMsg extends ClientMsg {
   private Room room;
-  private int roomid;
-  private boolean isleft;
 
   public Room getRoom() {
     return room;
@@ -22,28 +20,11 @@ public class ClientOutRoomMsg extends BaseMsg {
     this.room = room;
   }
 
-  public int getRoomid() {
-    return roomid;
-  }
-
-  public void setRoomid(int roomid) {
-    this.roomid = roomid;
-  }
-
-  public boolean isIsleft() {
-    return isleft;
-  }
-
-  public void setIsleft(boolean isleft) {
-    this.isleft = isleft;
-  }
-
   public ClientOutRoomMsg(int roomid, boolean isleft ) {
-    super();
+    super(roomid, isleft);
     this.room=room;
-    this.roomid = roomid;
-    this.isleft = isleft;
   }
+  
   public void doBiz(){
     RoomPojo room= MyServer.getMyServer().getRooms().get(roomid);
     if(room.isLeftReady()&&room.isRightReady()){

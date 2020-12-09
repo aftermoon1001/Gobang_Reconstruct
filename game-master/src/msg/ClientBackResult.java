@@ -7,44 +7,12 @@ import net.MyServer;
  * @author john
  *
  */
-public class ClientBackResult extends BaseMsg{
+public class ClientBackResult extends ClientMsg{
     private boolean result;
-    private int roomid;
-    private boolean isleft;
-    
-	
-
-	public boolean isResult() {
-		return result;
-	}
-
-	public void setResult(boolean result) {
-		this.result = result;
-	}
-
-	public int getRoomid() {
-		return roomid;
-	}
-
-	public void setRoomid(int roomid) {
-		this.roomid = roomid;
-	}
-
-	public boolean isIsleft() {
-		return isleft;
-	}
-
-	public void setIsleft(boolean isleft) {
-		this.isleft = isleft;
-	}
-
-	
 
 	public ClientBackResult(boolean result, int roomid, boolean isleft) {
-		super();
+		super(roomid, isleft);
 		this.result = result;
-		this.roomid = roomid;
-		this.isleft = isleft;
 	}
 
 	public void doBiz() {

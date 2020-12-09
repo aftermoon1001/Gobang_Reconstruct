@@ -10,18 +10,8 @@ import entity.User;
  * @author john
  *
  */
-public class ClientClickRoomMsg extends BaseMsg{
-	private int roomid;
+public class ClientClickRoomMsg extends ClientMsg{
 	private User user;
-	private boolean isleft;
-	
-	public int getRoomid() {
-		return roomid;
-	}
-
-	public void setRoomid(int roomid) {
-		this.roomid = roomid;
-	}
 
 	public User getUser() {
 		return user;
@@ -30,20 +20,10 @@ public class ClientClickRoomMsg extends BaseMsg{
 	public void setUser(User user) {
 		this.user = MyServer.getMyServer().findUser(user.getName());
 	}
-
-	public boolean isIsleft() {
-		return isleft;
-	}
-
-	public void setIsleft(boolean isleft) {
-		this.isleft = isleft;
-	}
    
 	public ClientClickRoomMsg(int roomid, User user, boolean isleft) {
-		super();
-		this.roomid = roomid;
+		super(roomid, isleft);
 		this.user = MyServer.getMyServer().findUser(user.getName());
-		this.isleft = isleft;
 	}
 
 	public void doBiz() {

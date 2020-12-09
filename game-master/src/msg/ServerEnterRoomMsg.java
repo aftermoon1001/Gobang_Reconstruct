@@ -8,37 +8,12 @@ import entity.RoomPojo;
  * @author john
  *
  */
-public class ServerEnterRoomMsg extends BaseMsg{
-	private int roomid;
-	private boolean isleft;
+public class ServerEnterRoomMsg extends ClientMsg{
 	private User user;
 
-
-	public int getRoomid() {
-		return roomid;
-	}
-
-
-	public void setRoomid(int roomid) {
-		this.roomid = roomid;
-	}
-
-
-	public boolean isIsleft() {
-		return isleft;
-	}
-
-
-	public void setIsleft(boolean isleft) {
-		this.isleft = isleft;
-	}
-
-
 	public ServerEnterRoomMsg(int roomid, boolean isleft, User user) {
-		super();
-		this.roomid = roomid;
+		super(roomid, isleft);
 		this.user=user;
-		this.isleft = isleft;
 	}
 
 

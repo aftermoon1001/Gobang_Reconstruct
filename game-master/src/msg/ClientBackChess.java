@@ -7,50 +7,10 @@ import entity.RoomPojo;
  * @author john
  *
  */
-public class ClientBackChess extends BaseMsg{
-    private int roomid;
-    private boolean isleft;
-    
-    
-	
-
-	public int getRoomid() {
-		return roomid;
-	}
-
-
-
-
-	public void setRoomid(int roomid) {
-		this.roomid = roomid;
-	}
-
-
-
-
-	public boolean isIsleft() {
-		return isleft;
-	}
-
-
-
-
-	public void setIsleft(boolean isleft) {
-		this.isleft = isleft;
-	}
-	
-
-
-
-
+public class ClientBackChess extends ClientMsg{
 	public ClientBackChess(int roomid, boolean isleft) {
-		super();
-		this.roomid = roomid;
-		this.isleft = isleft;
+		super(roomid, isleft);
 	}
-
-
-
 
 	public void doBiz() {
 		RoomPojo roompojo=MyServer.getMyServer().getRooms().get(roomid);

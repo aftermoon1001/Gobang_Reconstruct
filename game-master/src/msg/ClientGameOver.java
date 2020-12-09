@@ -7,44 +7,11 @@ import entity.RoomPojo;
  * @author john
  *
  */
-public class ClientGameOver extends BaseMsg{
-    private int roomid;
-	private boolean isleft;
-	
-	
-
-	public int getRoomid() {
-		return roomid;
-	}
-
-
-
-	public void setRoomid(int roomid) {
-		this.roomid = roomid;
-	}
-
-
-
-	public boolean isIsleft() {
-		return isleft;
-	}
-
-
-
-	public void setIsleft(boolean isleft) {
-		this.isleft = isleft;
-	}
-	
-
-
+public class ClientGameOver extends ClientMsg{
 
 	public ClientGameOver(int roomid, boolean isleft) {
-		super();
-		this.roomid = roomid;
-		this.isleft = isleft;
+		super(roomid, isleft);
 	}
-
-
 
 	public void doBiz() {
 		RoomPojo roompojo=MyServer.getMyServer().getRooms().get(roomid);
