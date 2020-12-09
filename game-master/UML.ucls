@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="chess.HumanThread" project="game-master" 
+    file="/game-master/src/chess/HumanThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8892" y="1176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="chess.NameDialog" project="game-master" 
+    file="/game-master/src/chess/NameDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5760" y="1819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="chess.Personal" project="game-master" file="/game-master/src/chess/Personal.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5988" y="2003"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="chess.SendmailFrame" project="game-master" 
+    file="/game-master/src/chess/SendmailFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1881" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="chess.Home" project="game-master" file="/game-master/src/chess/Home.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6143" y="2586"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="chess.ChessTable" project="game-master" 
+    file="/game-master/src/chess/ChessTable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8140" y="2271"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="chess.ChessTable.MouseHandler" project="game-master" 
+    file="/game-master/src/chess/ChessTable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8631" y="1176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="chess.RoomList" project="game-master" file="/game-master/src/chess/RoomList.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6195" y="2057"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="chess.Room" project="game-master" file="/game-master/src/chess/Room.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6761" y="1558"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="chess.RobotThread" project="game-master" 
+    file="/game-master/src/chess/RobotThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9154" y="1176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="chess.WinNumFrame" project="game-master" 
+    file="/game-master/src/chess/WinNumFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6820" y="3689"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="chess.Main" project="game-master" file="/game-master/src/chess/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1693" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="dao.IUserDaoImp" project="game-master" 
+    file="/game-master/src/dao/IUserDaoImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3737" y="1876"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="dao.IUserDao" project="game-master" file="/game-master/src/dao/IUserDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3906" y="2428"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="dao.BaseDao" project="game-master" file="/game-master/src/dao/BaseDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3604" y="2455"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="entity.UpdatePicture" project="game-master" 
+    file="/game-master/src/entity/UpdatePicture.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5355" y="1509"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="entity.RoomPojo" project="game-master" 
+    file="/game-master/src/entity/RoomPojo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5033" y="3483"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="entity.User" project="game-master" file="/game-master/src/entity/User.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6516" y="3699"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="msg.ServerMovePieces" project="game-master" 
+    file="/game-master/src/msg/ServerMovePieces.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="255" x="2617" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="msg.ServerDefeatmsg" project="game-master" 
+    file="/game-master/src/msg/ServerDefeatmsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="149" x="4334" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="msg.ServerDidLogMsg" project="game-master" 
+    file="/game-master/src/msg/ServerDidLogMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5607" y="700"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="msg.ClientQuickEnterMsg" project="game-master" 
+    file="/game-master/src/msg/ClientQuickEnterMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8286" y="704"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="msg.ClientBackChess" project="game-master" 
+    file="/game-master/src/msg/ClientBackChess.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="197" x="3495" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="msg.ServerRoomPlayerMsg" project="game-master" 
+    file="/game-master/src/msg/ServerRoomPlayerMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5107" y="708"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="msg.ServerBackFail" project="game-master" 
+    file="/game-master/src/msg/ServerBackFail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="133" x="5973" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="msg.ClientClickRoomMsg" project="game-master" 
+    file="/game-master/src/msg/ClientClickRoomMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7314" y="776"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="msg.ServerBackSucceed" project="game-master" 
+    file="/game-master/src/msg/ServerBackSucceed.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="170" x="1649" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="msg.ClientOutRoomMsg" project="game-master" 
+    file="/game-master/src/msg/ClientOutRoomMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6487" y="776"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="msg.ServerLoginFailMsg" project="game-master" 
+    file="/game-master/src/msg/ServerLoginFailMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="168" x="3287" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="msg.ServerEnterRoomMsg" project="game-master" 
+    file="/game-master/src/msg/ServerEnterRoomMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7023" y="758"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="msg.ClientOffMsg" project="game-master" 
+    file="/game-master/src/msg/ClientOffMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="118" x="1491" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="msg.ServerGroupChat" project="game-master" 
+    file="/game-master/src/msg/ServerGroupChat.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="166" x="2912" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="msg.ServerRoomListMsg" project="game-master" 
+    file="/game-master/src/msg/ServerRoomListMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="247" x="4523" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="msg.ClientBeReady" project="game-master" 
+    file="/game-master/src/msg/ClientBeReady.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="183" x="3732" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="msg.ServerUserListMsg" project="game-master" 
+    file="/game-master/src/msg/ServerUserListMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8050" y="722"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="msg.ClientMovePieces" project="game-master" 
+    file="/game-master/src/msg/ClientMovePieces.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1993" y="986"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="msg.ServerLoginSucMsg" project="game-master" 
+    file="/game-master/src/msg/ServerLoginSucMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7566" y="704"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="msg.ServerBeReady" project="game-master" 
+    file="/game-master/src/msg/ServerBeReady.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4878" y="708"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="msg.ClientClickChatMsg" project="game-master" 
+    file="/game-master/src/msg/ClientClickChatMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7800" y="749"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="msg.ServerStartGame" project="game-master" 
+    file="/game-master/src/msg/ServerStartGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="148" x="2429" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="msg.BaseMsg" project="game-master" file="/game-master/src/msg/BaseMsg.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="159" width="152" x="4523" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="msg.ClientLoginMsg" project="game-master" 
+    file="/game-master/src/msg/ClientLoginMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="171" x="2218" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="msg.ServerBackChess" project="game-master" 
+    file="/game-master/src/msg/ServerBackChess.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="153" x="4141" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="msg.ClientBackResult" project="game-master" 
+    file="/game-master/src/msg/ClientBackResult.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="246" x="5233" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="msg.ClientClickUpdateMsg" project="game-master" 
+    file="/game-master/src/msg/ClientClickUpdateMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6250" y="696"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="msg.ClientLogoutMsg" project="game-master" 
+    file="/game-master/src/msg/ClientLogoutMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="146" x="3955" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="msg.ClientGameOver" project="game-master" 
+    file="/game-master/src/msg/ClientGameOver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="191" x="5742" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="msg.ServerWinMsg" project="game-master" 
+    file="/game-master/src/msg/ServerWinMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="129" x="3118" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="net.MyClient.ReceiveServerThread" project="game-master" 
+    file="/game-master/src/net/MyClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6016" y="1299"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="net.MyServer.WaitForClientThread" project="game-master" 
+    file="/game-master/src/net/MyServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5097" y="2789"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="net.MyServer.ClientChatThread" project="game-master" 
+    file="/game-master/src/net/MyServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5677" y="2799"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="net.MyClient" project="game-master" file="/game-master/src/net/MyClient.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6076" y="1608"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="net.MyServer" project="game-master" file="/game-master/src/net/MyServer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5322" y="2373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="util.TabbedPaneUI.ColorSet" project="game-master" 
+    file="/game-master/src/util/TabbedPaneUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1543" y="1039"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="55" language="java" name="util.IChess" project="game-master" file="/game-master/src/util/IChess.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9136" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="56" language="java" name="util.TabbedPaneUI" project="game-master" 
+    file="/game-master/src/util/TabbedPaneUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1331" y="1559"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="util.MyListCellRender" project="game-master" 
+    file="/game-master/src/util/MyListCellRender.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1342" y="430"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="util.ScrollbarUI" project="game-master" 
+    file="/game-master/src/util/ScrollbarUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="909" y="466"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="util.AudioPlayer" project="game-master" 
+    file="/game-master/src/util/AudioPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9393" y="1185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="util.TabbedPaneUI.RollOverListener" project="game-master" 
+    file="/game-master/src/util/TabbedPaneUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1048" y="1080"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="util.ChessImpl" project="game-master" file="/game-master/src/util/ChessImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8726" y="2754"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="62">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="63" name="room">        
+        <position height="0" width="0" x="326" y="-179"/>      
+      </attribute>      
+      <multiplicity id="64" minimum="0" maximum="1">        
+        <position height="0" width="0" x="326" y="-179"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="66" name="rid">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </attribute>      
+      <multiplicity id="67" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="69" name="chessTable">        
+        <position height="0" width="0" x="112" y="976"/>      
+      </attribute>      
+      <multiplicity id="70" minimum="0" maximum="1">        
+        <position height="0" width="0" x="112" y="976"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <end type="SOURCE" refId="56" navigable="false">      
+      <attribute id="72" name="selectedColorSet">        
+        <position height="0" width="0" x="177" y="308"/>      
+      </attribute>      
+      <multiplicity id="73" minimum="0" maximum="1">        
+        <position height="0" width="0" x="177" y="308"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="75">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="76" name="rightPlayer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="77" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="78">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="79">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <nesting id="80">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="49"/>  
+  </nesting>  
+  <association id="81">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="82" name="userList">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="83" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="84">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="85" name="nameDialog">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="86" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="88" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="89" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="90">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="55"/>  
+  </realization>  
+  <association id="91">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="92" name="humanThread">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="93" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="95" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="96" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="97">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="99">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="100" name="userlist">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="101" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="103" name="myclient">        
+        <position height="0" width="0" x="4898" y="785"/>      
+      </attribute>      
+      <multiplicity id="104" minimum="0" maximum="1">        
+        <position height="0" width="0" x="4898" y="785"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="106">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="107" name="userDao">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="108" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="109">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="110">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="111" name="home">        
+        <position height="0" width="0" x="-6" y="-231"/>      
+      </attribute>      
+      <multiplicity id="112" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-6" y="-231"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="114" name="rooms">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </attribute>      
+      <multiplicity id="115" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="117" name="room">        
+        <position height="0" width="0" x="326" y="-179"/>      
+      </attribute>      
+      <multiplicity id="118" minimum="0" maximum="1">        
+        <position height="0" width="0" x="326" y="-179"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="119">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="120" name="u">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="121" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="122">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <nesting id="123">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="50"/>  
+  </nesting>  
+  <association id="124">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="125" name="pool">        
+        <position height="0" width="0" x="-781" y="-19"/>      
+      </attribute>      
+      <multiplicity id="126" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-781" y="-19"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="127">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="128">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="129" name="roomPojo">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </attribute>      
+      <multiplicity id="130" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="131">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="132" name="leftPlayer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="133" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="134">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="135">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="136">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="137">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="138">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="139">    
+    <end type="SOURCE" refId="56" navigable="false">      
+      <attribute id="140" name="defaultColorSet">        
+        <position height="0" width="0" x="177" y="308"/>      
+      </attribute>      
+      <multiplicity id="141" minimum="0" maximum="1">        
+        <position height="0" width="0" x="177" y="308"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="142">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="143" name="roomList">        
+        <position height="0" width="0" x="-127" y="-299"/>      
+      </attribute>      
+      <multiplicity id="144" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-127" y="-299"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="145">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="146" name="room">        
+        <position height="0" width="0" x="326" y="-179"/>      
+      </attribute>      
+      <multiplicity id="147" minimum="0" maximum="1">        
+        <position height="0" width="0" x="326" y="-179"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="148">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="60"/>  
+  </nesting>  
+  <association id="149">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="150" name="roomList">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </attribute>      
+      <multiplicity id="151" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="152">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="153" name="robotThread">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="154" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="155">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="156">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="157" name="home">        
+        <position height="0" width="0" x="-6" y="-231"/>      
+      </attribute>      
+      <multiplicity id="158" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-6" y="-231"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="159">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="160" name="b">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="161" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="162">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="163" name="rightPlayer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="164" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="165">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="166" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="167" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="168">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="169" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="170" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="171">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="172" name="audioPlayer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="173" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="59" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="174">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="175" name="chess">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="176" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="177">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="178">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="179" name="chessimpl">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="180" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="181">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="182" name="audioStopPlayer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="183" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="59" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="184">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="185">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="186" name="home">        
+        <position height="0" width="0" x="-6" y="-231"/>      
+      </attribute>      
+      <multiplicity id="187" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-6" y="-231"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="188">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="189" name="roomList">        
+        <position height="0" width="0" x="-127" y="-299"/>      
+      </attribute>      
+      <multiplicity id="190" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-127" y="-299"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="191">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="192" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="193" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="194">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <nesting id="195">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="54"/>  
+  </nesting>  
+  <association id="196">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="197" name="chessTable">        
+        <position height="0" width="0" x="112" y="976"/>      
+      </attribute>      
+      <multiplicity id="198" minimum="0" maximum="1">        
+        <position height="0" width="0" x="112" y="976"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="199">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="200">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="201">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="202" name="myserver">        
+        <position height="0" width="0" x="-578" y="-28"/>      
+      </attribute>      
+      <multiplicity id="203" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-578" y="-28"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="204">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="205" name="chessTable">        
+        <position height="0" width="0" x="112" y="976"/>      
+      </attribute>      
+      <multiplicity id="206" minimum="0" maximum="1">        
+        <position height="0" width="0" x="112" y="976"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="207">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="208" name="rooms">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </attribute>      
+      <multiplicity id="209" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-2317" y="426"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="210">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="211" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="212" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="213">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="214" name="idi">        
+        <position height="0" width="0" x="-578" y="-28"/>      
+      </attribute>      
+      <multiplicity id="215" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-578" y="-28"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="216">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="217" name="chessPanel">        
+        <position height="0" width="0" x="112" y="976"/>      
+      </attribute>      
+      <multiplicity id="218" minimum="0" maximum="1">        
+        <position height="0" width="0" x="112" y="976"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="219">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="220">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="221" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="222" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="223">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="224" name="namedialog">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="225" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="226">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="227" name="leftPlayer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="228" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="229">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="230" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="231" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="232">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="233">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="234">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="235" name="roomlist">        
+        <position height="0" width="0" x="-127" y="-299"/>      
+      </attribute>      
+      <multiplicity id="236" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-127" y="-299"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="237">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="238">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="239">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="240" name="chess">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="241" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="242">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="243">    
+    <end type="SOURCE" refId="56" navigable="false">      
+      <attribute id="244" name="hoverColorSet">        
+        <position height="0" width="0" x="177" y="308"/>      
+      </attribute>      
+      <multiplicity id="245" minimum="0" maximum="1">        
+        <position height="0" width="0" x="177" y="308"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="246">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="247" name="roomList">        
+        <position height="0" width="0" x="-127" y="-299"/>      
+      </attribute>      
+      <multiplicity id="248" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-127" y="-299"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="249">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="250">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="251">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="252" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="253" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="254">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="255" name="home">        
+        <position height="0" width="0" x="-6" y="-231"/>      
+      </attribute>      
+      <multiplicity id="256" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-6" y="-231"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="257">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="258">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <nesting id="259">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <association id="260">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="261" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="262" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="263">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="51"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

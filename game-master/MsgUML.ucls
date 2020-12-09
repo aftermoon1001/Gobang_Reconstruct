@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="msg.ServerMovePieces" project="game-master" 
+    file="/game-master/src/msg/ServerMovePieces.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4046" y="653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="msg.ServerDefeatmsg" project="game-master" 
+    file="/game-master/src/msg/ServerDefeatmsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3160" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="msg.ServerDidLogMsg" project="game-master" 
+    file="/game-master/src/msg/ServerDidLogMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2469" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="msg.ClientQuickEnterMsg" project="game-master" 
+    file="/game-master/src/msg/ClientQuickEnterMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2748" y="300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="msg.ClientBackChess" project="game-master" 
+    file="/game-master/src/msg/ClientBackChess.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2582" y="925"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="msg.ServerRoomPlayerMsg" project="game-master" 
+    file="/game-master/src/msg/ServerRoomPlayerMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4245" y="300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="msg.ServerBackFail" project="game-master" 
+    file="/game-master/src/msg/ServerBackFail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3739" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="msg.ClientClickRoomMsg" project="game-master" 
+    file="/game-master/src/msg/ClientClickRoomMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3208" y="662"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="msg.ServerBackSucceed" project="game-master" 
+    file="/game-master/src/msg/ServerBackSucceed.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3548" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="msg.ClientOutRoomMsg" project="game-master" 
+    file="/game-master/src/msg/ClientOutRoomMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3609" y="952"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="msg.ServerLoginFailMsg" project="game-master" 
+    file="/game-master/src/msg/ServerLoginFailMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2145" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="msg.ServerEnterRoomMsg" project="game-master" 
+    file="/game-master/src/msg/ServerEnterRoomMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3752" y="644"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="msg.ClientOffMsg" project="game-master" 
+    file="/game-master/src/msg/ClientOffMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2557" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="msg.ServerGroupChat" project="game-master" 
+    file="/game-master/src/msg/ServerGroupChat.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2963" y="318"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="msg.ServerRoomListMsg" project="game-master" 
+    file="/game-master/src/msg/ServerRoomListMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2709" y="608"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="msg.ClientBeReady" project="game-master" 
+    file="/game-master/src/msg/ClientBeReady.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2352" y="925"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="msg.ServerUserListMsg" project="game-master" 
+    file="/game-master/src/msg/ServerUserListMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1893" y="608"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="msg.ClientMovePieces" project="game-master" 
+    file="/game-master/src/msg/ClientMovePieces.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3304" y="997"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="msg.ServerLoginSucMsg" project="game-master" 
+    file="/game-master/src/msg/ServerLoginSucMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4302" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="msg.ServerBeReady" project="game-master" 
+    file="/game-master/src/msg/ServerBeReady.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3845" y="880"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="msg.ClientClickChatMsg" project="game-master" 
+    file="/game-master/src/msg/ClientClickChatMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3478" y="635"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="msg.ServerStartGame" project="game-master" 
+    file="/game-master/src/msg/ServerStartGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3349" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="msg.BaseMsg" project="game-master" file="/game-master/src/msg/BaseMsg.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="159" width="152" x="3159" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="msg.ClientLoginMsg" project="game-master" 
+    file="/game-master/src/msg/ClientLoginMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2958" y="608"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="msg.ServerBackChess" project="game-master" 
+    file="/game-master/src/msg/ServerBackChess.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2797" y="871"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="msg.ClientBackResult" project="game-master" 
+    file="/game-master/src/msg/ClientBackResult.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3969" y="372"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="msg.ClientClickUpdateMsg" project="game-master" 
+    file="/game-master/src/msg/ClientClickUpdateMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2363" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="msg.ClientLogoutMsg" project="game-master" 
+    file="/game-master/src/msg/ClientLogoutMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2279" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="msg.ClientGameOver" project="game-master" 
+    file="/game-master/src/msg/ClientGameOver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3009" y="925"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="msg.ServerWinMsg" project="game-master" 
+    file="/game-master/src/msg/ServerWinMsg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2101" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="51">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
