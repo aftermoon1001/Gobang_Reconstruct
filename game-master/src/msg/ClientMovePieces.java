@@ -11,14 +11,10 @@ import entity.RoomPojo;
  * @author john
  *
  */
-public class ClientMovePieces extends BaseMsg{
-    private int roomid;
-    private boolean isleft;
+public class ClientMovePieces extends ClientMsg{
     private int[][] chess;
     private boolean backChess=false;
     
-	
-
 	public boolean isBackChess() {
 		return backChess;
 	}
@@ -27,28 +23,6 @@ public class ClientMovePieces extends BaseMsg{
 
 	public void setBackChess(boolean backChess) {
 		this.backChess = backChess;
-	}
-
-
-
-	public int getRoomid() {
-		return roomid;
-	}
-
-
-
-	public void setRoomid(int roomid) {
-		this.roomid = roomid;
-	}
-
-
-	public boolean isIsleft() {
-		return isleft;
-	}
-
-
-	public void setIsleft(boolean isleft) {
-		this.isleft = isleft;
 	}
 
 
@@ -66,7 +40,7 @@ public class ClientMovePieces extends BaseMsg{
 
 	public ClientMovePieces(int roomid, boolean isleft, int[][] chess,
 													boolean backChess, int x, int y) {
-		super();
+		super(roomid, isleft);
 		this.roomid = roomid;
 		this.isleft = isleft;
 		this.chess = chess;

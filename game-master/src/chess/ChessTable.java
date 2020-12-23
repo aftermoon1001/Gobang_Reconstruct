@@ -22,7 +22,7 @@ import msg.ClientGameOver;
 import msg.ClientMovePieces;
 import net.MyServer;
 import util.AudioPlayer;
-import util.ChessImpl;
+import util.IChess;
 import util.IChess;
 
 /**
@@ -49,7 +49,7 @@ public class ChessTable extends JPanel {
   public static boolean isReady = false;
   public int Moves;// 本局比赛已下的总步数
   private int[][] mark = new int[15][15];
-  public static IChess chessimpl = new ChessImpl();
+  public static IChess chessimpl = new IChess();
 
   public static IChess getChessimpl() {
     return chessimpl;
@@ -173,9 +173,9 @@ public class ChessTable extends JPanel {
                 if (Moves == 225)
                   room.pingju();
                 room.setCanplay(false);
-                System.out.println("kjdhasjdakdhads+==========" + ChessImpl.chess[0][0]);
+                System.out.println("kjdhasjdakdhads+==========" + IChess.chess[0][0]);
                 ClientMovePieces msg = new ClientMovePieces(
-                    room.getRid(), room.isleft, ChessImpl.chess, false, humanX, humanY);
+                    room.getRid(), room.isleft, IChess.chess, false, humanX, humanY);
                 MyClient.getMyClient().sendMsg(msg);
                 room.getChessPanel().setMark(humanX, humanY);
                 room.repaint();
@@ -262,7 +262,7 @@ public class ChessTable extends JPanel {
 
     for (int i = 0; i < 15; i++) {
       for (int j = 0; j < 15; j++) {
-        if (ChessImpl.chess[i][j] != 0) {
+        if (IChess.chess[i][j] != 0) {
           int m, n;
           m = i * 34 + 35;
           n = j * 34 + 35;
@@ -300,13 +300,13 @@ public class ChessTable extends JPanel {
               (float) ellipse.getCenterY() - 1, Color.black);
           // 黑子
           // System.out.println("m=" + m + "n=" + n);
-          if (ChessImpl.chess[i][j] == 2) {
+          if (IChess.chess[i][j] == 2) {
             // System.out.println("棋桌在"+m+","+n+"处画了一个黑子");
             g2.setPaint(gp2);
             g2.fill(ellipse);
             g2.setPaint(gp4);
 
-          } else if (ChessImpl.chess[i][j] == 1) {// 白子
+          } else if (IChess.chess[i][j] == 1) {// 白子
             // System.out.println("棋桌在"+m+","+n+"处画了一个白子");
             g2.setPaint(gp1);
             g2.fill(ellipse);
@@ -356,7 +356,7 @@ public class ChessTable extends JPanel {
     for (int i = 0; i < 15; i++) {
       for (int j = 0; j < 17; j++) {
         // mark[i][j]=chess[i][j];
-        ChessImpl.chess[i][j] = chess[i][j];
+        IChess.chess[i][j] = chess[i][j];
       }
     }
     System.out.println(x+","+y);

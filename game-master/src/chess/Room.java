@@ -17,7 +17,7 @@ import msg.*;
 import net.MyClient;
 import net.MyServer;
 import util.AudioPlayer;
-import util.ChessImpl;
+import util.IChess;
 import util.IChess;
 import entity.RoomPojo;
 import entity.User;
@@ -491,7 +491,7 @@ public class Room extends JFrame {
     backGame = false;
     setCanplay(true);
     chessPanel.unpaintItem();//本身面板
-    ClientMovePieces msg = new ClientMovePieces(rid, isleft, ChessImpl.chess, true, 0, 0);
+    ClientMovePieces msg = new ClientMovePieces(rid, isleft, IChess.chess, true, 0, 0);
     MyClient.getMyClient().sendMsg(msg);
     JOptionPane.showMessageDialog(this,
         "乖儿子", "对方同意了你的请求", JOptionPane.ERROR_MESSAGE);
