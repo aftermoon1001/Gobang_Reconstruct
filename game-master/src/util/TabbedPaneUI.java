@@ -18,7 +18,7 @@ import java.util.Arrays;
  * 功能: 自定义TabbedPaneUI
  * @author 黄欢欢  时间: 2016-09-27
  */
-public class TabbedPaneUI extends BasicTabbedPaneUI {
+public class TabbedPaneUI extends BasicTabbedPaneUI implements MouseMotionListener, MouseListener{
 
   private Color selectColor;
   private Color deSelectColor;
@@ -63,9 +63,8 @@ public class TabbedPaneUI extends BasicTabbedPaneUI {
   @Override
   protected void installDefaults() {
     super.installDefaults();
-    RollOverListener l = new RollOverListener();
-    tabPane.addMouseListener(l);
-    tabPane.addMouseMotionListener(l);
+    tabPane.addMouseListener(this);
+    tabPane.addMouseMotionListener(this);
     selectColor = new Color(250, 192, 192);
     deSelectColor = new Color(197, 193, 168);
     tabAreaInsets.right = anchoCarpetas;
@@ -196,12 +195,6 @@ public class TabbedPaneUI extends BasicTabbedPaneUI {
     // a.intersect(b);
     return a;
   }
-  private class ColorSet {
-    Color topGradColor1;
-    Color topGradColor2;
-    Color bottomGradColor1;
-    Color bottomGradColor2;
-  }
 
   @Override
   protected void paintText(Graphics g, int tabPlacement, Font font,
@@ -305,40 +298,37 @@ public class TabbedPaneUI extends BasicTabbedPaneUI {
   }
 
   private int lastRollOverTab = -1;
-
-  private class RollOverListener implements MouseMotionListener,
-      MouseListener {
-    public void mouseMoved(MouseEvent e) {
-      checkRollOver();
-    }
-    public void mouseClicked(MouseEvent e){
-
-    }
-    public void mousePressed(MouseEvent e){
-
-    }
-    public void mouseDragged(MouseEvent e){
-
-    }
-    public void mouseReleased(MouseEvent e){
-
-    }
-    public void mouseEntered(MouseEvent e) {
-      checkRollOver();
-    }
-
-    public void mouseExited(MouseEvent e) {
-      tabPane.repaint();
-    }
-
-    private void checkRollOver() {
-      int currentRollOver = getRolloverTab();
-      if (currentRollOver != lastRollOverTab) {
-        lastRollOverTab = currentRollOver;
-        Rectangle tabsRect = new Rectangle(0, 0, tabPane.getWidth(),
-            tabPane.getHeight()+1);
-        tabPane.repaint(tabsRect);
-      }
-    }
-  }
+  
+  public void mouseMoved(MouseEvent e) {
+	  checkRollOver();
+	}
+	public void mouseClicked(MouseEvent e){
+	
+	}
+	public void mousePressed(MouseEvent e){
+	
+	}
+	public void mouseDragged(MouseEvent e){
+	
+	}
+	public void mouseReleased(MouseEvent e){
+	
+	}
+	public void mouseEntered(MouseEvent e) {
+	  checkRollOver();
+	}
+	
+	public void mouseExited(MouseEvent e) {
+	  tabPane.repaint();
+	}
+	
+	private void checkRollOver() {
+	  int currentRollOver = getRolloverTab();
+	  if (currentRollOver != lastRollOverTab) {
+	    lastRollOverTab = currentRollOver;
+	    Rectangle tabsRect = new Rectangle(0, 0, tabPane.getWidth(),
+	        tabPane.getHeight()+1);
+	    tabPane.repaint(tabsRect);
+	  }
+	}
 }

@@ -96,40 +96,6 @@ public class MyClient {
 		return true;
 	}
 	/**
-	 * 不断接受报文类并执行其Biz方法的线程
-	 * @author john
-	 *
-	 */
-	class ReceiveServerThread extends Thread{
-		private  Socket client;
-
-		public ReceiveServerThread(Socket client) {
-			super();
-			this.client = client;
-		}
-
-		public void run() {
-			
-				try {
-					while(true){
-					 ObjectInputStream ois = new ObjectInputStream(client.getInputStream());
-					 BaseMsg msg = (BaseMsg)ois.readObject();
-					 System.out.println("收到数据"+msg);
-					 msg.doBiz();
-			//		 ois.close();
-				}
-					} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (ClassNotFoundException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-			
-		}
-		
-	}
-	/**
 	 * 供用户界面的监听器调用，向服务器发送报文类的方法
 	 * @param msg
 	 */

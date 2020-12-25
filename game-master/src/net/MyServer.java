@@ -15,8 +15,6 @@ import dao.IUserDaoImp;
 import entity.RoomPojo;
 import entity.User;
 import net.MyServer;
-import net.MyServer.ClientChatThread;
-import net.MyServer.WaitForClientThread;
 import msg.BaseMsg;
 
 /**
@@ -94,7 +92,7 @@ public class MyServer {
 			e.printStackTrace();
 			return false;
 		}
-		new WaitForClientThread().start();
+		new WaitForClientThread(this).start();
 		return true;
 	}
 	/**
@@ -114,90 +112,7 @@ public class MyServer {
 		setStarted(false);
 		return true;
 	}
-	/**
-	 * 线程类处理多客户端连接
-	 * @author john
-	 *
-	 */
-	class WaitForClientThread extends Thread{
-		public void run() {
-			try {
-				while(true){
-				     Socket client =server.accept();
-				     System.out.println(client+"成功连接服务器");
-				     ClientChatThread cct=new ClientChatThread(client);
-				     pool.add(cct);
-				     cct.start();
-				}
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		
-	}
-	/**
-	 * 处理所连接的客户端的报文类数据收发
-	 * @author john
-	 *
-	 */
-	public class ClientChatThread extends Thread {
-		private User user;
-		private Socket client;
-        
-
-		public User getUser() {
-			return user;
-		}
-
-		public void setUser(User user) {
-			this.user = user;
-		}
-
-		public Socket getClient() {
-			return client;
-		}
-
-		public void setClient(Socket client) {
-			this.client = client;
-		}
-
-		public ClientChatThread(Socket client) {
-			super();
-			this.client = client;
-		}
-		
-		public void sendMsg(BaseMsg msg,Socket client) {
-			try {
-				ObjectOutputStream oos = new ObjectOutputStream(
-						client.getOutputStream());
-				oos.writeObject(msg);
-				System.out.println("发送报文"+msg);
-			//	oos.close();
-				
-			} catch (IOException e) {
-				e.printStackTrace();
-				System.out.println("给"+client+"发送数据失败");
-			}
-		}
-		public void run() {
-			 try {
-				 while(true){
-				 ObjectInputStream ois = new ObjectInputStream(client.getInputStream());
-				 
-				 BaseMsg msg = (BaseMsg)ois.readObject();
-				 msg.setClient(client);
-				 System.out.println("收到数据"+msg);
-				 msg.doBiz();
-			//	 ois.close();
-				 }
-			} catch (Exception e) {
-				e.printStackTrace();
-					MyServer.pool.remove(this);			
-
-			}
-		}
-		}
+	
 	/**
 	 * 执行从客户端中收的的报文的Biz(),在Biz中调用此方法，给相应客户端发送相应的报文
 	 * @param msg 应该发送的报文
